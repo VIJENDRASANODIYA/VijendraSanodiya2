@@ -1,0 +1,85 @@
+body{
+    background-color: #ffe6ca;
+}
+.container{
+    margin: 100px auto;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px  7px black;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1 a{
+    margin: 1px 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+div.nav-1{
+    padding: 18px 9px;
+font-size: 23px;
+}
+.nav-2{
+    padding: 18px 70px;
+}
+.nav-2 a{
+    color: black;
+    text-decoration: none;
+    padding: 1px 4px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img-main img{
+    float: right;
+    margin: 1px 97px;
+}
+div.main-content{
+margin: 95px 1px;
+padding: 4px 4px;
+font-size: 50px;
+color: black;
+background-color: white;
+}
+div.main-content a{
+position: absolute;
+text-decoration-color: orangered;
+          background-color: #ffffff;
+          color: black;
+          margin: 1px 75px;
+}
+/* .grid{
+display: grid;
+grid-template-columns: repeat(2 ,20%);
+gap: 10px ;
+color: black; */
+
+.table{
+table-layout: auto;
+float: right;
+padding: 4px 6px;
+margin: 1px 93px;
+}
+
+.grid{
+display: grid;
+grid-template-columns: repeat(2 ,49%);
+/* grid-template-rows: repeat(2, 100spx); */
+gap: 10px 0px;
+float: right;
+margin: 1px 101px;
+}
+.grid div{
+border: 2px solid black;
+width: 76px;
+height: 39px;
+}
+.grid-img{
+margin: 1px 10px;
+}

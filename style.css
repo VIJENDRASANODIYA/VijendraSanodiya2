@@ -11,6 +11,7 @@
     .item1,.item3,.item4,.items{
         background-color: rgb(72, 67, 67);
     border: 2px solid rgb(53, 49, 49);
+
     border-radius: 8px;
     color: whitesmoke;
     padding: 20px;
